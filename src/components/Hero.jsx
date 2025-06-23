@@ -113,6 +113,26 @@ const Hero = () => {
         </span>
       ))}
 
+      {/* Top Left Ad */}
+      <div className="absolute top-4 left-4 z-50 bg-zinc-800/80 text-white text-xs px-3 py-2 rounded shadow hidden md:block">
+        🔥 Ad: Learn React 3D in 7 Days!
+      </div>
+
+      {/* Top Right Ad */}
+      <div className="absolute top-4 right-4 z-50 bg-zinc-800/80 text-white text-xs px-3 py-2 rounded shadow hidden md:block">
+        🚀 Ad: Upgrade Your UI with TailwindCSS
+      </div>
+
+      {/* Bottom Left Ad */}
+      <div className="absolute bottom-4 left-4 z-50 bg-zinc-800/80 text-white text-xs px-3 py-2 rounded shadow hidden md:block">
+        💡 Ad: Build Stunning Portfolios for Awwwards
+      </div>
+
+      {/* Bottom Right Ad */}
+      <div className="absolute bottom-4 right-4 z-50 bg-zinc-800/80 text-white text-xs px-3 py-2 rounded shadow hidden md:block">
+        🎨 Ad: Discover 3D UI Design Trends
+      </div>
+
       <style>{`
         @keyframes hello-cell {
           0% {
